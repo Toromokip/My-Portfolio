@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cb0269b304.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#home" class="homebtn ">Home</a></li>
+                <li><a href="#about" class="aboutbtn ">About</a>
+                    <ul class="submenu">
+                        <li><a href="#">Work Experience</a></li>
+                        <li><a href="#">Education Background</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Hobbies</a></li>
+                    </ul>
+                </li>
+                <li><a href="#services" class="servicesbtn ">Services</a></li>
+                <li><a href="#testimonials" class="testimonialsbtn ">Testimonials</a></li>
+                <li><a href="#contact" class="contactbtn ">Contact</a></li>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-bars" onclick="menuDisplay()"></i> 
+        <i class="fa fa-regular fa-sun" onclick="changeMode(this)"></i>
+           
+    </header>
+
+    <!-- HOME SECTION DESIGN -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Timothy Kiplimo</h1>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Sapiente maiores blanditiis quae quos debitis rerum dolorum beatae? Magni nesciunt nostrum ratione</P>
+        
+        <div class="social-media">
+            <a href="https://www.facebook.com/timothy.kiplimo.7?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/Teezmoltyro1?t=KEM9zMVAZXNWLVlXJkxfrg&s=09"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com/tim_kiplee?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <button type="button" class="btn btn-primary">Download CV
+            <a href="files/RESUME 2.pdf" download=""> <i class="fa fa-duotone fa-download"></i></a>
+        </button>
+        </div>
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession"></div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="profile-image">
+            <img src="images/potrait.png">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+        <h3>Mechanical Engineering Graduate</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quibusdam aperiam perspiciatis velit amet!</p>       
+        <p>Quod dignissimos perferendis natus modi impedit nemo, eos, 
+        maxime nulla vel doloremque sunt maiores culpa hic excepturi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quibusdam aperiam perspiciatis velit amet!</p>  
+        <p>Quod dignissimos perferendis natus modi impedit nemo, eos, 
+        maxime nulla vel doloremque sunt maiores culpa hic excepturi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quibusdam aperiam perspiciatis velit amet!</p> 
+        <p>Quod dignissimos perferendis natus modi impedit nemo, eos, 
+        maxime nulla vel doloremque sunt maiores culpa hic excepturi.</p>
+        <a href="#" class="btn ">Read More</a> 
+        </div>
+        
+    </section>
+
+    <!-- CONTACTS -->
+    <section class="contact">
+        <h1>Contacts</h1>
+        <p>Email: <span><a href="mailto: timothykip97@gmail.com">timothykip97@gmail.com</a></span></p>
+        <p>Phone: (+254) 717214963</p>
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="index.js"></script>
+</body>
+</html>
