@@ -251,7 +251,13 @@ span {
 
 /* MEDIA QUERY FOR LESS THAN 768PX*/
 @media screen and (max-width: 768px){
-    .navbar {
+    h1 {
+font-size: 32px;
+} 
+p, a {
+font-size: 16px;
+} 
+.navbar {
         position: absolute;
         width: auto;
         padding: 0 10px;
